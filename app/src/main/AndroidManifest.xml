@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".network.retrofit.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,7 @@
 
         <!-- Volley使用  开始 -->
         <activity
-            android:name=".network.VolleyActivity"
+            android:name=".network.volley.VolleyActivity"
             ></activity>
         <!-- Volley使用  结束 -->
     </application>
