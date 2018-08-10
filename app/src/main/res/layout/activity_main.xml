@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.framework.util.util_framework.MainActivity">
+    tools:context="com.framework.util.util_framework.network.retrofit.MainActivity">
 
 
     <com.framework.util.util_framework.MyView

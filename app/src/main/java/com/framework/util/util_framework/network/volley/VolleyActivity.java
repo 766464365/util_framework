@@ -1,9 +1,8 @@
-package com.framework.util.util_framework.network;
+package com.framework.util.util_framework.network.volley;
 
 import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 

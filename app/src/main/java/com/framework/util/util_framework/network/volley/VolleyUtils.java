@@ -1,4 +1,4 @@
-package com.framework.util.util_framework.network;
+package com.framework.util.util_framework.network.volley;
 
 import android.content.Context;
 import android.graphics.Bitmap;
