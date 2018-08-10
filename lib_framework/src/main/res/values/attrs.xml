@@ -42,4 +42,16 @@
         <attr name="label_text_size" format="float"/>
     </declare-styleable>
     <!--扫描二维码相关自定义属性 结束-->
+
+    <!--开关按钮自定义属性 开始-->
+    <declare-styleable name="slideswitch">
+        <attr name="themeColor" format="color" />
+        <attr name="isOpen" format="boolean" />
+        <attr name="shape">
+            <enum name="rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+    </declare-styleable>
+    <!--开关按钮自定义属性 结束-->
+
 </resources>
