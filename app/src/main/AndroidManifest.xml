@@ -14,7 +14,7 @@
 
         <activity android:name=".customview.ViewActivity"/>
 
-        <activity android:name=".network.retrofit.MainActivity">
+        <activity android:name=".network.retrofit.RetrofitActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
