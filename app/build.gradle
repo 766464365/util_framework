@@ -30,4 +30,8 @@ dependencies {
     //volley 开始
     implementation 'com.mcxiaoke.volley:library:1.0.19'
     //volley 结束
+    // butterknife依赖 开始
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    // butterknife依赖 结束
 }

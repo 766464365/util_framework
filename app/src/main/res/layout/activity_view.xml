@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:slideswitch="http://schemas.android.com/apk/res-auto"
-    tools:context=".customview.ViewActivity">
+    tools:context=".ViewActivity">
     <com.xuwei.framework.customview.SlideSwitchButton
         android:id="@+id/slide2"
         android:layout_width="@dimen/x500"

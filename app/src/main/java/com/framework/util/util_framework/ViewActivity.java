@@ -1,4 +1,4 @@
-package com.framework.util.util_framework.customview;
+package com.framework.util.util_framework;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

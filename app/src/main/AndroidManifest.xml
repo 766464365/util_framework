@@ -12,7 +12,7 @@
 
 
 
-        <activity android:name=".customview.ViewActivity"/>
+        <activity android:name=".ViewActivity"/>
 
         <activity android:name=".network.retrofit.RetrofitActivity">
 

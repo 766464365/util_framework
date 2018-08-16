@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y123"
+    android:layout_marginTop="@dimen/y3"
+    android:background="@color/colorWhite">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/x60"
+        android:gravity="center_vertical"
+        android:text="选项内容"
+        android:textColor="@color/text_ff888888"
+        android:textSize="@dimen/text_size_39"/>
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:text="是"
+        android:layout_marginRight="@dimen/x129"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/text_ff888888"
+        android:textSize="@dimen/text_size_39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <ImageView
+        android:id="@+id/ivClick"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_forward_nor"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x30"
+        android:layout_width="@dimen/x90"
+        android:layout_height="@dimen/x90" />
+
+
+</RelativeLayout>

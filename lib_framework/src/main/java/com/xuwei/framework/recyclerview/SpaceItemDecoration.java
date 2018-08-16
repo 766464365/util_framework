@@ -3,7 +3,7 @@ package com.xuwei.framework.recyclerview;
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-
+自定义
 /**
  * While writing this code, only God and I know what it is.
  * And now only God knows it
