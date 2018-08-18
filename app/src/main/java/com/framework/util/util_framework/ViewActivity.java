@@ -1,4 +1,4 @@
-package com.framework.util.util_framework.customview;
+package com.framework.util.util_framework;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 import com.framework.util.util_framework.R;
 import com.xuwei.framework.customview.SlideSwitchButton;
-
+//自定义开关按钮
 public class ViewActivity extends AppCompatActivity implements SlideSwitchButton.SlideListener {
 
     @Override
