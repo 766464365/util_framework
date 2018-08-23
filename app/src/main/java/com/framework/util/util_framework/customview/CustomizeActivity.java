@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.framework.util.util_framework.R;
 import com.framework.util.util_framework.customview.CombineLayout.OrderDetailItemClickable;
+import com.framework.util.util_framework.localsqlite.MyLocalSqLiteHelper;
 import com.xuwei.framework.base.BaseActivity;
 import com.xuwei.framework.utils.ToastUtils;
 
@@ -22,7 +23,8 @@ public class CustomizeActivity extends BaseActivity {
         setContentView(R.layout.activity_customize);
         ButterKnife.bind(this);
         initView();
-        ToastUtils.getInstance(getApplicationContext()).show("ahahah");
+//        ToastUtils.getInstance(getApplicationContext()).show("ahahah");
+        MyLocalSqLiteHelper.getHelperInstance(getApplicationContext(),"MyStore.db",null,1).getWritableDatabase();
     }
 
     private void initView() {

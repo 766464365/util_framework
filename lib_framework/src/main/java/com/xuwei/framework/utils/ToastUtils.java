@@ -22,7 +22,12 @@ public class ToastUtils {
     }
     public static ToastUtils getInstance(Context context){
         if(instance==null){
-            instance=new ToastUtils(context);
+            synchronized (ToastUtils.class){
+                if(instance==null){
+                    instance=new ToastUtils(context);
+                }
+                return instance;
+            }
         }
         return instance;
     }
