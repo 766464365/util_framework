@@ -10,14 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ViewActivity" />
-        <activity android:name=".network.retrofit.RetrofitActivity">
-
-        </activity>
+        <activity android:name=".network.retrofit.RetrofitActivity" />
         <!-- Volley使用  开始 -->
         <activity android:name=".network.volley.VolleyActivity" />
         <!-- Volley使用  结束 -->
 
-        <activity android:name=".customview.CustomizeActivity">
+        <activity android:name=".customview.CustomizeActivity"></activity>
+        <activity android:name=".tablayout.TablayoutActivity">
+
+        </activity>
+        <activity android:name=".recyclerview.RecyclerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
